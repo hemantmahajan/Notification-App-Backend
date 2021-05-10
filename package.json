@@ -1,0 +1,20 @@
+{
+  "name": "notification_app_backend",
+  "version": "1.0.0",
+  "description": "Backend for User Notification interface",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app",
+    "start": "node app"
+  },
+  "keywords": [
+    "User",
+    "Notification"
+  ],
+  "author": "Hemant Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
